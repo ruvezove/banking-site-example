@@ -2,10 +2,25 @@
     "users": [
         {
             "id": 1,
-            "username": "asd",
+            "username": "dev1",
             "password": "$2b$12$EF0dO8uyzi9yQd5DP73e1OaBm0m7Q3ZOZGrN1fc7RbNmsbpaxmKUW",
-            "balance": 500,
+            "balance": 40000,
             "history": [
+                {
+                    "title": "Аутенфикация",
+                    "message": "Выполнен выход из аккаунта.",
+                    "time": "20:41:58"
+                },
+                {
+                    "title": "Переводы",
+                    "message": "Сумма 12$ отправлена на счёт ddd.",
+                    "time": "20:37:12"
+                },
+                {
+                    "title": "Аутенфикация",
+                    "message": "Выполнена авторизация на сайт.",
+                    "time": "20:37:03"
+                },
                 {
                     "title": "Переводы",
                     "message": "Получена сумма 500$ от пользователя ddd.",
@@ -45,10 +60,15 @@
         },
         {
             "id": 2,
-            "username": "ddd",
+            "username": "dev2",
             "password": "$2b$12$arBQ95ZqX7UK/fg.F5cOueaYR/WioBQcHUrbLVqZvDVKlSKbmL.7a",
-            "balance": 17000,
+            "balance": 40000,
             "history": [
+                {
+                    "title": "Переводы",
+                    "message": "Получена сумма 12$ от пользователя asd.",
+                    "time": "20:37:12"
+                },
                 {
                     "title": "Переводы",
                     "message": "Сумма 500$ отправлена на счёт asd.",

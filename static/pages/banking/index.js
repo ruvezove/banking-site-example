@@ -35,6 +35,7 @@ document.querySelector('form').addEventListener('submit', async ev => {
 
     if (res.ok) {
         if (body.success) {
+            window.alert('Средства переведены успешно.');
             page('page-main');
         } else {
             window.alert(body.message);
