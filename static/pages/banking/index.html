@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./pages/banking/index.css">
+</head>
+<body>
+    <div class="body">
+        <div class="header">
+            <p class="username">-username-</p>
+            <p class="bankname">Банк RPR</p>
+            <p class="balance">-balance-</p>
+        </div>
+
+        <div class="main">
+            <div class="buttons page main-page" id="page-main">
+                <p>Действия</p>
+
+                <div class="button" onclick="page('page-sending')">
+                    <img src="./icons/send.svg">
+                    <span></span>
+                    <p>Перевести деньги</p>
+                </div>
+                
+                <div class="button" onclick="logout()">
+                    <img src="./icons/logout.svg">
+                    <span></span>
+                    <p>Выйти с аккаунта</p>
+                </div>
+            </div>
+
+            <div class="buttons page" id="page-sending">
+                <form>
+                    <input type="text" name="amount" placeholder="Введите количество">
+                    <input type="text" name="username" placeholder="Введите юзернейм человека">
+
+                    <button type="submit">Продолжить</button>
+                    <button type="button" onclick="page('page-main')">Вернуться</button>
+                </form>
+            </div>
+
+            <div class="history page main-page" id="page-history">
+            </div>
+        </div>
+    </div>
+
+    <script src="./pages/banking/index.js" defer></script>
+</body>
+</html>
