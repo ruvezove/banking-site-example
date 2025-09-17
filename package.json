@@ -1,14 +1,18 @@
 {
   "name": "banking-site-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Наипростейший пример банка на локальном сервере Express. ",
   "main": "index.js",
   "scripts": {
     "start": "npx tsc && node dist/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "example",
+    "banking",
+    "simple",
+    "express"
+  ],
+  "author": "Ruve Zove",
   "type": "module",
   "dependencies": {
     "bcryptjs": "^3.0.2",
