@@ -2,10 +2,20 @@
     "users": [
         {
             "id": 1,
-            "username": "dev1",
+            "username": "deva",
             "password": "$2b$12$EF0dO8uyzi9yQd5DP73e1OaBm0m7Q3ZOZGrN1fc7RbNmsbpaxmKUW",
             "balance": 40000,
             "history": [
+                {
+                    "title": "Аутенфикация",
+                    "message": "Выполнен выход из аккаунта.",
+                    "time": "22:05:43"
+                },
+                {
+                    "title": "Аутенфикация",
+                    "message": "Выполнена авторизация на сайт.",
+                    "time": "22:02:52"
+                },
                 {
                     "title": "Аутенфикация",
                     "message": "Выполнен выход из аккаунта.",
@@ -60,7 +70,7 @@
         },
         {
             "id": 2,
-            "username": "dev2",
+            "username": "devb",
             "password": "$2b$12$arBQ95ZqX7UK/fg.F5cOueaYR/WioBQcHUrbLVqZvDVKlSKbmL.7a",
             "balance": 40000,
             "history": [
